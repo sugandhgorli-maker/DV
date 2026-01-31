@@ -21,13 +21,4 @@ module dff (clk, reset,
     end
   end
 endmodule
-module ram8 (
-  input  wire clk,
-  input  wire write,
-  input  wire addr,
-  output wire wdata,
-);
-  // something here
-  reg [1:0]  rdata [1:0];
 
-endmodule
